@@ -1,0 +1,27 @@
+body {
+  color: #eee;
+  background-color: #111;
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  padding: 0.2em;
+}
+
+li.seen {
+  color: #0074D9;
+  text-decoration: line-through;
+}
+
+a:link,a:active,a:visited {
+      text-decoration: none;
+      border-bottom: 1px solid rgb(238, 238, 238);
+      color: rgb(238, 238, 238);
+}
+
+a:hover {
+      text-decoration: none;
+      border-bottom: 1px dashed rgb(238, 238, 238);
+      color: rgb(238, 238, 238);
+}
